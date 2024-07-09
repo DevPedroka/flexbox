@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 160vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e2e8f0;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    gap: 10px;
+}
+
+section {
+    border: 3px solid #71717a;
+    border-radius: 5px;
+    display: flex;
+    flex-basis: 250px;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+ul {
+    margin: 30px;
+}
+
+li {
+    text-align: center;
+    padding: 1px;
+    font-size: 25px;
+    list-style: none;
+}
+
+/* 
+li:hover {
+    background-color: #71717a;
+} */
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+}
+
+.salary {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: #374151;
+    color: #fff;
+    padding: 10px;
+}
+
+h3 {
+    margin: 20px;
+    align-self: flex-end;
+    background-color: #16a34a;
+    color: #fff;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+h3:hover {
+    background-color: #15803d;
+}
+
+section:nth-child(3) h2 {
+    background-color: #082f49;
+}
+
+section:nth-child(2) h2 {
+    background-color: #0c4a6e;
+}
+
+section:nth-child(1) h2 {
+    background-color: #075985;
+}
